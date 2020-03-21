@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial;
+
+  padding: 10px;
+
+  background: #707070;
+
+}
+
+.header {
+
+  padding: 30px;
+
+  text-align: left;
+
+  background: #858585;
+
+}
+
+.header h1 {
+
+  font-size: 50px;
+
+  color: white;
+
+}
+
+.header img {
+
+  float: right;
+
+  height: 140px;
+
+  width: 430px;
+
+  src: url(file:///home/reece/Desktop/County House Site/Images/logo.png);
+
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+
+  overflow: hidden;
+
+  background-color: #364956;
+
+}
+
+/* Style the topnav links */
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial;
+
+  padding: 10px;
+
+  background: #707070;
+
+}
+
+.header {
+
+  padding: 30px;
+
+  text-align: left;
+
+  background: #858585;
+
+}
+
+.header h1 {
+
+  font-size: 50px;
+
+  color: white;
+
+}
+
+.header img {
+
+  float: right;
+
+  height: 140px;
+
+  width: 430px;
+
+  src: url(file:///home/reece/Desktop/County House Site/Images/logo.png);
+
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+
+  overflow: hidden;
+
+  background-color: #364956;
+
+}
+
+/* Style the topnav links */
+
+.topnav a {
+
+  float: left;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+/* Left column */
+
+.leftcolumn {
+
+  float: left;
+
+  width: 100%;
+
+}
+
+/* Fake image */
+
+.fakeimg {
+
+  background-color: #aaa;
+
+  width: 100%;
+
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+
+.card {
+
+  background-color: #858585;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+  color: white;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+/* Footer */
+
+.footer {
+
+  padding: 50px;
+
+  text-align: center;
+
+  background: #707070;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn, .rightcolumn {
+
+    width: 100%;
+
+    padding: 0;
+
+  }
+
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+
+  .topnav a {
+
+    float: none;
+
+    width: 100%;
+
+  }
+
+}
+
+.topnav a {
+
+  float: left;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+/* Left column */
+
+.leftcolumn {
+
+  float: left;
+
+  width: 100%;
+
+}
+
+/* Fake image */
+
+.fakeimg {
+
+  background-color: #aaa;
+
+  width: 100%;
+
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+
+.card {
+
+  background-color: #858585;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+  color: white;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+/* Footer */
+
+.footer {
+
+  padding: 50px;
+
+  text-align: center;
+
+  background: #707070;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn, .rightcolumn {
+
+    width: 100%;
+
+    padding: 0;
+
+  }
+
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+
+  .topnav a {
+
+    float: none;
+
+    width: 100%;
+
+  }
+
+}
+
+/* END */
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<a name="top"></a>
+
+<div class="header">
+
+  <h1 style="color: white; text-align:Left">The County House<img src="file:///home/reece/Desktop/County House Site/Images/logo.png"></h1>
+
+  <h3 style="color: white; text-align:Left">Sea Angling Club</h3>
+
+</div>
+
+
+
+<div class="topnav">
+
+  <a href="index.html">Home</a>
+
+  <a href="aboutus.html">About Us</a>
+
+  <a href="gallery.html">Gallery</a>
+
+  <a href="members.html">Members</a>
+
+  <a href="contactus.html">Contact Us</a>
+
+  <a href="resources.html">Resources</a>
+
+  <a href="signin.html" style="float:right">Sign In</a>
+
+</div>
+
+
+
+<div class="row">
+
+  <div class="leftcolumn">
+
+    <div class="card">
+
+      <div class="img_march3rd.jpg" style="height:250px;"><img src="file:///home/reece/Desktop/County House Site/Images/img_gallerybanner.jpg" style="height:250px; width:100%;" alt="Looe 2020"></div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rossicongers.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/robcloset.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/lads.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/bcmackerel.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/mickdeck.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/currynight.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rossibhuss1.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="file:///home/reece/Desktop/County House Site/Images/brirossi.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/ronnietope.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/igling.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rossideck.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rbc.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/barpic2.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rossidragon.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="file:///home/reece/Desktop/County House Site/Images/michbhuss.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/bcbuddah.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/mickrossihuss.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rcconger.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/donrobfitz.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rossiling.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/barpic1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="file:///home/reece/Desktop/County House Site/Images/GWSMick.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/nigel.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rossibhuss.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/mickronniecongers.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/barpic.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/ianrossipp.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rossicloset.jpg" style="width:100%">
+    <img src="file:///home/reece/Desktop/County House Site/Images/rcconger2.jpg" style="width:100%">
+  </div>
+</div>
+
+  </body>
+
+  </html>

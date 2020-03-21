@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial;
+
+  padding: 10px;
+
+  background: #707070;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+.header {
+
+  padding: 30px;
+
+  text-align: left;
+
+  background: #858585;
+
+}
+
+.header h1 {
+
+  font-size: 50px;
+
+  color: white;
+
+}
+
+.header img {
+
+  float: right;
+
+  height: 140px;
+
+  width: 430px;
+
+  src: url(file:///home/reece/Desktop/County House Site/Images/logo.png);
+
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+
+  overflow: hidden;
+
+  background-color: #364956;
+
+}
+
+/* Style the topnav links */
+
+.topnav a {
+
+  float: left;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+/* Left column */
+
+.leftcolumn {
+
+  float: left;
+
+  width: 100%;
+
+}
+
+/* Fake image */
+
+.fakeimg {
+
+  background-color: #aaa;
+
+  width: 100%;
+
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+
+.card {
+
+  background-color: #858585;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+  color: white;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+/* Footer */
+
+.footer {
+
+  padding: 50px;
+
+  text-align: center;
+
+  background: #707070;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn, .rightcolumn {
+
+    width: 100%;
+
+    padding: 0;
+
+  }
+
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+
+  .topnav a {
+
+    float: none;
+
+    width: 100%;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a name="top"></a>
+
+<div class="header">
+
+  <h1 style="color: white">The County House<img src="file:///home/reece/Desktop/County House Site/Images/logo.png"></h1>
+
+  <h3 style="color: white">Sea Angling Club</h3>
+
+</div>
+
+
+
+<div class="topnav">
+
+  <a href="index.html">Home</a>
+
+  <a href="aboutus.html">About Us</a>
+
+  <a href="gallery.html">Gallery</a>
+
+  <a href="members.html">Members</a>
+
+  <a href="contactus.html">Contact Us</a>
+
+  <a href="resources.html">Resources</a>
+
+  <a href="signin.html" style="float:right">Sign In</a>
+
+</div>
+
+
+
+<div class="row">
+
+  <div class="leftcolumn">
+
+    <div class="card">
+
+      <h2>The County House SAC</h2>
+      <h3>List of trips for 2020 (excluding the away weekend)</h3>
+
+      <table>
+        <tr>
+          <th>Location:</th>
+        	<th>Date:</th>
+          <th>Boat:</th>
+        </tr>
+        <tr>
+          <td>Craster</td>
+          <td>26th April</td>
+      	  <td>Bon Ami</td>
+        </tr>
+        <tr>
+          <td>Craster</td>
+          <td>24th May</td>
+      	  <td>Bon Ami</td>
+        </tr>
+        <tr>
+          <td>Craster</td>
+          <td>31st May</td>
+      	  <td>Bon Ami</td>
+        </tr>
+        <tr>
+          <td>Hartlepool</td>
+          <td>14th June</td>
+      	  <td>Evelyn Jane</td>
+        </tr>
+        <tr>
+          <td>Tyne</td>
+          <td>28th June</td>
+      	  <td>Kelsey Leigh</td>
+        </tr>
+        <tr>
+          <td>Craster</td>
+          <td>5th July</td>
+      	  <td>Bon Ami</td>
+        </tr>
+        <tr>
+          <td>Sunderland</td>
+          <td>12th July</td>
+      	  <td>Sapphire</td>
+        </tr>
+        <tr>
+          <td>Sunderland</td>
+          <td>2nd August</td>
+      	  <td>Sapphire</td>
+        </tr>
+        <tr>
+          <td>Craster</td>
+          <td>9th August</td>
+      	  <td>Bon Ami</td>
+        </tr>
+        <tr>
+          <td>Hartlepool</td>
+          <td>16th August</td>
+      	  <td>Sapphire</td>
+        </tr>
+        <tr>
+          <td>Craster</td>
+          <td>27th September</td>
+      	  <td>Bon Ami</td>
+        </tr>
+        <tr>
+          <td>Craster</td>
+          <td>11th October</td>
+      	  <td>Bon Ami</td>
+        </tr>
+      </table>
+
+      <h2>Further Trip Information</h2>
+
+      <p>All <strong>Sunday</strong> trips, unless otherwise stated.</p>
+      <p>All <strong>AM</strong> trips, unless changed closer to the time.</p>
+    </div>
+
+<div class="footer">
+
+  <a href="#top"><u><strong>Back to top</strong></u></a>
+
+</div>
+
+
+
+</body>
+
+</html>

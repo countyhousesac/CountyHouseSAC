@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial;
+
+  padding: 10px;
+
+  background: #707070;
+
+}
+
+.header {
+
+  padding: 30px;
+
+  text-align: left;
+
+  background: #858585;
+
+}
+
+.header h1 {
+
+  font-size: 50px;
+
+  color: white;
+
+}
+
+.header img {
+
+  float: right;
+
+  height: 140px;
+
+  width: 430px;
+
+  src: url(file:///home/reece/Desktop/County House Site/Images/logo.png);
+
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+
+  overflow: hidden;
+
+  background-color: #364956;
+
+}
+
+/* Style the topnav links */
+
+.topnav a {
+
+  float: left;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+/* Left column */
+
+.leftcolumn {
+
+  float: left;
+
+  width: 100%;
+
+}
+
+/* Fake image */
+
+.fakeimg {
+
+  background-color: #aaa;
+
+  width: 100%;
+
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+
+.card {
+
+  background-color: #858585;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+  color: white;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+/* Footer */
+
+.footer {
+
+  padding: 50px;
+
+  text-align: center;
+
+  background: #707070;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn, .rightcolumn {
+
+    width: 100%;
+
+    padding: 0;
+
+  }
+
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+
+  .topnav a {
+
+    float: none;
+
+    width: 100%;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a name="top"></a>
+
+<div class="header">
+
+  <h1 style="color: white">The County House<img src="file:///home/reece/Desktop/County House Site/Images/logo.png"></h1>
+
+  <h3 style="color: white">Sea Angling Club</h3>
+
+</div>
+
+
+
+<div class="topnav">
+
+  <a href="index.html">Home</a>
+
+  <a href="aboutus.html">About Us</a>
+
+  <a href="gallery.html">Gallery</a>
+
+  <a href="members.html">Members</a>
+
+  <a href="contactus.html">Contact Us</a>
+
+  <a href="resources.html">Resources</a>
+
+  <a href="signin.html" style="float:right">Sign In</a>
+
+</div>
+
+
+
+<div class="row">
+
+  <div class="leftcolumn">
+
+    <div class="card">
+
+      <h2>Latest Update</h2>
+
+      <h5>Away Weekend - Deposits, March 3rd, 2020</h5>
+
+      <div class="img_march3rd.jpg" style="height:250px;"><img src="file:///home/reece/Desktop/County House Site/Images/img_march3rd.jpg" style="height:250px; width:100%;" alt="Looe 2020"></div>
+
+      <p><strong>Deposits are all in!</strong></p>
+
+      <p>Just a quick update on where we are with the away weekend deposits, all deposits of £50.00 have been payed. This has secured everyones place however, we will now begin taking payments for the away weekend.</p>
+
+		<p><strong>Please <a href="signin.html"><u><strong>Sign In</strong></u></a> to view the account details.</strong></p>
+
+    </div>
+
+    <div class="card">
+
+      <h2>Congratulations to Ronnie on his retirement!</h2>
+
+      <h5>Congratulations - February 20th, 2020</h5>
+
+      <div class="img_feb20th.jpg" style="height:250px;"><img src="file:///home/reece/Desktop/County House Site/Images/img_feb20th.jpg" style="height:250px; width:100%;" alt="Ronnies Retirement Photo"></div>
+
+      <p><strong>Happy Retirement Mr. Kane!</strong></p>
+
+      <p>I hope everyone can join me in wishing Ronnie the very best with his recent retirement, hope all goes well and we see him catching plenty fish in the near future</p>
+
+      <p><strong>Drinks on him when we're away!</strong></p>
+
+    </div>
+
+    <div class="card">
+
+      <h2>This years trips</h2>
+
+      <h5>Trips 2020 - February 12th, 2020</h5>
+
+      <div class="img_feb12th.jpg" style="height:250px;"><img src="file:///home/reece/Desktop/County House Site/Images/img_feb12th.png" style="height:250px; width:100%;" alt="Ronnies Retirement Photo"></div>
+
+      <p><strong>The County House Trips for this year!</strong></p>
+
+      <p>I hope everyone can attend the trips this year, and everyone is in good health at the moment. You will need to sign in to view these, as the list is for members of The County House SAC only.</p>
+
+      <p><strong>Please <a href="signin.html"><u><strong>Sign In</strong></u></a> to view the list of trips and dates.</strong></p>
+  </div>
+</div>
+
+<div class="footer">
+
+  <a href="#top"><u><strong>Back to top</strong></u></a>
+
+</div>
+
+</body>
+
+</html>
