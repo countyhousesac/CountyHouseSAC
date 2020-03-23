@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial;
+
+  padding: 10px;
+
+  background: #707070;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  border: 1px solid black;
+  background-color: #364956;
+  text-align: left;
+  padding: 10px;
+}
+
+.header {
+
+  padding: 30px;
+
+  text-align: left;
+
+  background: #858585;
+
+}
+
+.header h1 {
+
+  font-size: 50px;
+
+  color: white;
+
+}
+
+.header img {
+
+  float: right;
+
+  height: 140px;
+
+  width: 430px;
+
+  src: url(file:///home/reece/Desktop/County House Site/Images/logo.png);
+
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+
+  overflow: hidden;
+
+  background-color: #364956;
+
+}
+
+/* Style the topnav links */
+
+.topnav a {
+
+  float: left;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+/* Left column */
+
+.leftcolumn {
+
+  float: left;
+
+  width: 100%;
+
+}
+
+/* Fake image */
+
+.fakeimg {
+
+  background-color: #aaa;
+
+  width: 100%;
+
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+
+.card {
+
+  background-color: #858585;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+  color: white;
+
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+/* Footer */
+
+.footer {
+
+  padding: 50px;
+
+  text-align: center;
+
+  background: #707070;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn, .rightcolumn {
+
+    width: 100%;
+
+    padding: 0;
+
+  }
+
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+
+  .topnav a {
+
+    float: none;
+
+    width: 100%;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a name="top"></a>
+
+<div class="header">
+
+  <h1 style="color: white">The County House<img src="file:///home/reece/Desktop/County House Site/Images/logo.png"></h1>
+
+  <h3 style="color: white">Sea Angling Club</h3>
+
+</div>
+
+
+
+<div class="topnav">
+
+  <a href="index.html">Home</a>
+
+  <a href="aboutus.html">About Us</a>
+
+  <a href="gallery.html">Gallery</a>
+
+  <a href="trips.html">Trips</a>
+
+  <a href="contactus.html">Contact Us</a>
+
+  <a href="resources.html">Resources</a>
+
+  <a href="signin.html" style="float:right">Sign In</a>
+
+</div>
+
+
+
+<div class="row">
+
+  <div class="leftcolumn">
+
+    <div class="card">
+
+      <div class="usefullinksbanner.jpg" style="height:250px;"><img src="file:///home/reece/Desktop/County House Site/Images/usefullinksbanner.jpg" style="height:250px; width:100%;" alt="Useful Links Banner"></div>
+
+      <h3><u>Recommended by us:<u></h3>
+
+      <table>
+        <tr>
+          <th>Tackle Shop:</th>
+        	<th>Website:</th>
+          <th>Location:</th>
+          <th>Best For:</th>
+        </tr>
+        <tr>
+          <td>Frasers Angling & Outdoors</td>
+          <td><a href="http://www.frasersangling.co.uk/">www.frasersangling.co.uk</a></td>
+      	  <td>Frasers Angling & Outdoors<br>69/73 Coatsworth Road<br>Gateshead<br>Tyne & Wear<br>NE8 1QL<br>0191 477 5950</td>
+          <td>Rods & Rod Building<br>Mono & Braid<br>Lures & Accessories<br>Terminal & Boat Fishing Tackle<br>Clothing<br>Waders</td>
+        </tr>
+        <tr>
+          <td>Gerry's of Morecambe</td>
+          <td><a href="www.gerrysfishing.com">www.gerrysfishing.com</td>
+      	  <td>Gerry's Fishing<br>52-54 Marine Road<br>West End<br>Morecambe<br>LA4 4EU<br>0152 442 2146</td>
+          <td>Rods & Rod Building<br>Lures & Accessories<br>Reels & Accessories<br>Luggage & Boxes<br>Terminal & Boat Fishing Tackle<br>Shark Fishing Tackle</td>
+        </tr>
+      </table>
+
+    </div>
+
+  </body>
+
+  </html>
